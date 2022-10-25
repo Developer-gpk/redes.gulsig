@@ -1,10 +1,14 @@
 #cover{
-    .imagen{
+    width: 100%;
+    height: 901px;
+    position: relative;
+    .imagen-desk{
         span{
             width: 100% !important;
+            height: 901px !important;
         }
     }
-    .imagen-desk{
+    .imagen-mobile{
         display: none;
     }
     .holder{
@@ -215,14 +219,14 @@
     }
     .monstruo-desk{
         position: absolute;
-        width: 521px;
-        height: 529px;
+        width: 365px;
+        height: 370px;
         bottom: 0;
         right: 0;
         span{
             position: relative !important;
-            width: 521px !important;
-            height: 529px !important;
+            width: 365px !important;
+            height: 370px !important;
         }
     }
     .monstruo-mobile{
@@ -231,14 +235,15 @@
 }
 @media (max-width: 768px){
     #cover{
-        .imagen{
+        height: 736px;
+        .imagen-desk{
             display: none;
         }
-        .imagen-desk{
+        .imagen-mobile{
             display: block;
             span{
                 width: 100% !important;
-                height: 100% !important;
+                height: 736px !important;
             }
         }
         .holder{

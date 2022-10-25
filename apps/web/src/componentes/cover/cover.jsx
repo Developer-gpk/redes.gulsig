@@ -7,10 +7,10 @@ import { ScrollParallax } from 'react-just-parallax'
 export default function Cover(){
     return(
         <section className='' id='cover'>
-            <div className='imagen'>
+            <div className='imagen-desk'>
                 <Image src={CoverDesk} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' quality={100} />
             </div>
-            <div className='imagen-desk'>
+            <div className='imagen-mobile'>
                 <Image src={CoverMobile} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' quality={100} />
             </div>
             <div className='holder'>
