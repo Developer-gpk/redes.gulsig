@@ -1,0 +1,372 @@
+#cover{
+    .imagen{
+        span{
+            width: 100% !important;
+            height: 100vh !important;
+        }
+    }
+    .imagen-desk{
+        display: none;
+    }
+    .holder{
+        position: absolute;
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        .dulce-1{
+            position: absolute;
+            top: 39px;
+            left: 0px;
+            width: 117px;
+            height: 96px;
+            span{
+                position: relative !important;
+                width: 117px !important;
+                height: 96px !important;
+            }
+        }
+        .logo{
+            width: 336px;
+            height: 168px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            margin-top: 51px;
+            span{
+                position: relative !important;
+                width: 336px !important;
+                height: 168px !important;
+            }
+        }
+        .dulce-2{
+            position: absolute;
+            top: 51px;
+            right: 0px;
+            width: 44px;
+            height: 44px;
+            span{
+                position: relative !important;
+                width: 44px !important;
+                height: 44px !important;
+            }
+        }
+        .text-logo-desk{
+            width: 665.68px;
+            height: 60.01px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            margin-top: 47.3px;
+            span{
+                position: relative !important;
+                width: 665.68px !important;
+                height: 60.01px !important;
+            }
+        }
+        .text-logo-mobile{
+            display: none;
+        }
+        .text{
+            width: 542px;
+            height: 102px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            margin-top: 39.69px;
+            text-align: center;
+            h1{
+                font-size: 25px;
+                font-family: "OpenSans-Regular";
+                color: rgba(255,255,255,0.7);
+                span{
+                    font-family: "OpenSans-Bold";
+                    color: rgba(255,255,255,1);
+                }
+            }
+        }
+        .dulce-3{
+            position: absolute;
+            top: 65%;
+            right: 15%;
+            width: 89px;
+            height: 73px;
+            span{
+                position: relative !important;
+                width: 89px !important;
+                height: 73px !important;
+            }
+        }
+        .links{
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            margin-top: 62px;
+            display: flex;
+            width: 290px;
+            justify-content: space-between;
+            .facebook{
+                width: 49px;
+                height: 49px;
+                border-radius: 50%;
+                padding: 12px;
+                span{
+                    position: relative !important;
+                    width: 25px !important;
+                    height: 25px !important;
+                }
+                &:hover{
+                    background-color: rgba(129,66,103,0.8);
+                }
+            }
+            .instagram{
+                width: 49px;
+                height: 49px;
+                border-radius: 50%;
+                padding: 12px;
+                span{
+                    position: relative !important;
+                    width: 25px !important;
+                    height: 25px !important;
+                }
+                &:hover{
+                    background-color: rgba(129,66,103,0.8);
+                }
+            }
+            .ubicacion{
+                width: 49px;
+                height: 49px;
+                border-radius: 50%;
+                padding: 12px;
+                span{
+                    position: relative !important;
+                    width: 25px !important;
+                    height: 25px !important;
+                }
+                &:hover{
+                    background-color: rgba(129,66,103,0.8);
+                }
+            }
+        }
+    }
+    .mancha{
+        position: absolute;
+        width: 261px;
+        height: 182px;
+        bottom: 0;
+        left: 0;
+        span{
+            position: relative !important;
+            width: 261px !important;
+            height: 182px !important;
+        }
+    }
+    .dulce-4{
+        position: absolute;
+        bottom: 201px;
+        left: 148px;
+        width: 53px;
+        height: 106px;
+        span{
+            position: relative !important;
+            width: 53px !important;
+            height: 106px !important;
+        }
+    }
+    .derechos{
+        position: absolute;
+        bottom: 27px;
+        left: 0;
+        right: 0;
+        width: 232px;
+        height: 38px;
+        margin: 0 auto;
+        text-align: center;
+        h6{
+            font-family: "OpenSans-Bold";
+            font-size: 10px;
+            color: #FFFFFF;
+        }
+        .goplek{
+            width: 53px;
+            height: 15px;
+            margin: 9px auto 27px auto;
+            span{
+                position: relative !important;
+                width: 53px !important;
+                height: 15px !important;
+            }
+        }
+    }
+    .dulce-5{
+        position: absolute;
+        bottom: 116.7px;
+        left: 0;
+        right: 0;
+        width: 44px;
+        height: 72px;
+        margin: 0 auto;
+        transform: rotate(-29deg);
+        span{
+            position: relative !important;
+            width: 44px !important;
+            height: 72px !important;
+        }
+    }
+    .monstruo-desk{
+        position: absolute;
+        width: 521px;
+        height: 529px;
+        bottom: 0;
+        right: 0;
+        span{
+            position: relative !important;
+            width: 521px !important;
+            height: 529px !important;
+        }
+    }
+    .monstruo-mobile{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    #cover{
+        .imagen{
+            display: none;
+        }
+        .imagen-desk{
+            display: block;
+            span{
+                width: 100% !important;
+                height: 100vh !important;
+            }
+        }
+        .holder{
+            .dulce-1{
+                position: absolute;
+                top: 162px;
+                left: 15px;
+                width: 53px;
+                height: 44px;
+                span{
+                    width: 53px !important;
+                    height: 44px !important;
+                }
+            }
+            .logo{
+                width: 256px;
+                height: 128px;
+                margin-top: 30px;
+                span{
+                    width: 256px !important;
+                    height: 128px !important;
+                }
+            }
+            .dulce-2{
+                display: none;
+            }
+            .text-logo-desk{
+                display: none;
+            }
+            .text-logo-mobile{
+                display: block;
+                width: 209px;
+                height: 80px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                margin-top: 14px;
+                span{
+                    position: relative !important;
+                    width: 209px !important;
+                    height: 80px !important;
+                }
+            }
+            .text{
+                width: 374px;
+                height: 102px;
+                margin-top: 22px;
+                h1{
+                    font-size: 18px;
+                }
+            }
+            .dulce-3{
+                top: 100%;
+                right: 20px;
+                width: 49px;
+                height: 41px;
+                span{
+                    width: 49px !important;
+                    height: 41px !important;
+                }
+            }
+            .links{
+                margin-top: 7px;
+                width: 200px;
+                .facebook{
+                    padding: 14px 12px 12px 12px;
+                    span{
+                        width: 14px !important;
+                        height: 26.83px !important;
+                    }
+                }
+                .instagram{
+                    span{
+                        width: 30px !important;
+                        height: 30px !important;
+                    }
+                }
+                .ubicacion{
+                    span{
+                        width: 32px !important;
+                        height: 32px !important;
+                    }
+                }
+            }
+        }
+        .mancha{
+            display: none;
+        }
+        .dulce-4{
+            display: none;
+        }
+        .derechos{
+            bottom: 0;
+            width: 100%;
+            height: 45px;
+            z-index: 2;
+            background: linear-gradient(to bottom, rgba(44,191,192, 0.1), rgba(44,191,192, 1));
+            h6{
+                font-size: 9px;
+            }
+            .goplek{
+                width: 40px;
+                height: 12px;
+                margin: 6px auto 15px auto;
+                span{
+                    width: 40px !important;
+                    height: 12px !important;
+                }
+            }
+        }
+        .dulce-5{
+            display: none;
+        }
+        .monstruo-desk{
+            display: none;
+        }
+        .monstruo-mobile{
+            position: absolute;
+            width: 324px;
+            height: 313px;
+            bottom: 0;
+            right: 20px;
+            display: block;
+            span{
+                width: 324px !important;
+                height: 313px !important;
+            }
+        }
+    }
+}
