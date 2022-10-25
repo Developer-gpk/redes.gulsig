@@ -229,7 +229,7 @@
         display: none;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
     #cover{
         .imagen{
             display: none;
@@ -238,6 +238,7 @@
             display: block;
             span{
                 width: 100% !important;
+                height: 100% !important;
             }
         }
         .holder{
@@ -356,14 +357,14 @@
         }
         .monstruo-mobile{
             position: absolute;
-            width: 324px;
-            height: 313px;
+            width: 227px;
+            height: 219px;
             bottom: 0;
             right: 20px;
             display: block;
             span{
-                width: 324px !important;
-                height: 313px !important;
+                width: 227px !important;
+                height: 219px !important;
             }
         }
     }
